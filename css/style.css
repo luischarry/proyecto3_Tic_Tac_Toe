@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: BIT;
+}
+.tablero{
+    margin:auto;
+    max-width: 30em;
+    margin-top: 3em;
+}
+
+@media only screen and (max-width: 576px) {
+    .tablero {
+        margin-top: 0;
+    }
+}
+#unico{
+    display: flex;
+    justify-content: space-between;
+}
+.jugadores{
+    justify-content: space-around;
+}
+.casilla{
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(9, 160, 190);
+    padding: 1em;
+
+}
+.ocupado{
+    color:black;
+}
+.ganador{
+    background-color: lightblue;
+    color:darkgreen;
+}
+.B1{
+    border-top: 3px solid black;
+    border-bottom:3px solid black;
+}
+.B2{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+@font-face {
+    font-family: BIT;
+    src: url(../fuente/BIT.TTF);
+}
+p{
+    color: rgb(53, 175, 53);
+}
+
+#contador1, #contador2{
+    color: rgb(214, 73, 73);
+}
+button:hover {
+    color: #000000;
+    cursor: pointer;
+  }

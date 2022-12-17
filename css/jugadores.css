@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@font-face {
+    font-family: BIT;
+    src: url(../fuente/BIT.TTF);
+}
+#formLogin{
+    margin:0;
+    display: block;
+    text-align: center;
+    padding-top: 162px; 
+    color:white;
+    font-family: cursive;
+    font-size: xx-large;margin:0;
+    display: block;
+    text-align: center;
+    padding-top: 162px; 
+    color:white;
+    font-family: BIT;
+    font-size: large;
+}
+input[type=text] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }

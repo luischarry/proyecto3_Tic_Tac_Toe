@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jugadores.js"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="row  tablero jugadores">
+        <div class="col-4 alert alert-info">
+            <p>
+                <script>showJugador1()</script> X
+            </p>
+            <div id="contador1">0</div>
+        </div>
+        <div class="col-4 alert alert-info">
+            <p>
+                <script>showJugador2()</script> O
+            </p>
+            <div id="contador2">0</div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-3 tablero ">
+            <div id="c1" class="col casilla ">"</div>
+            <div id="c2" class="col casilla B2">"</div>
+            <div id="c3" class="col casilla">"</div>
+            <div id="c4" class="col casilla B1">"</div>
+            <div id="c5" class="col casilla B2 B1">"</div>
+            <div id="c6" class="col casilla B1">"</div>
+            <div id="c7" class="col casilla">"</div>
+            <div id="c8" class="col casilla B2">"</div>
+            <div id="c9" class="col casilla">"</div>
+            <div id="info" class="col-12 alert alert-info mt-3">COMIENZA X</div>
+            
+            <div id="unico" class="col-12">
+                <button id="volver" onclick="reset()"> reiniciar tablero</td>
+                <button id="volver" onclick="location.href='./jugadores.html'">volver</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src='../js/main.js'></script>
+   
+</body>
+
+</html>
